@@ -1,0 +1,37 @@
+@function b(){
+    @return(
+        2px solid green
+    )
+}
+
+
+section{
+    padding: 2rem;
+    background: $thirty;
+    #lt{
+        width: 10rem;
+        border-radius: 10px;
+    }
+    h4{
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    #hh{
+        font-size: .6rem;
+        span{
+            font-weight: 300;
+        }
+        &::before{
+            content: '\f005';
+            font-family: 'Font Awesome 5 Free';
+            margin-right: .2rem;
+        }
+    }
+    h5{
+        font-size: .6rem;
+        font-weight: 800;
+        span{
+            font-weight: 400;
+        }
+    }
+}

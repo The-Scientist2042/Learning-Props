@@ -1,0 +1,16 @@
+$sixty:#0d1b1e;
+$thirty:#7798ab;
+$ten:#c3dbc5;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@function b(){
+    @return(
+        2px solid black
+    )
+}
